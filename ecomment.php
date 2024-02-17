@@ -1,5 +1,5 @@
 <?php
-$a=mysqli_connect("localhost:3377","root","","ecomment");
+$a=mysqli_connect("localhost","root","");
 if($a->connect_error){
     die("connection failed:".$a->connect_error);
     }
