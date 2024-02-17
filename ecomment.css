@@ -1,0 +1,82 @@
+body{
+    background-image: url("pleasant.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    text-align:center;
+    margin-top:30px;
+    font-family: cursive;
+    color:rgb(64, 194, 64);
+    font-size: 45px;
+    letter-spacing: 3px;
+
+    font-style:cursive;
+}
+#body{
+    width:350px;
+    height:430px;
+    background-color: transparent;
+    margin-left:450px;
+    border-radius: 30px;
+   border-style:double;
+    border-width: 5px;
+    border-color: pink;
+    font-style: cursive;
+ box-shadow: 0px 0px 30px rgb(238, 91, 238)   ;;
+}
+#name{
+    color:rgb(247, 85, 247);
+    font-size: 30px;
+    position: relative;top:20px;left:25px;
+    font-style: cursive;
+}
+#uname{
+    position: relative;top:25px;left:15px;
+    height:35px;
+    width:250px;
+    border-style: none;
+    border-width:3px;
+    background: linear-gradient(to bottom right, rgb(253, 230, 186), pink );
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(107, 189, 236)   ;
+    color:rgb(86, 186, 243)   ;
+    font-weight: 400px;
+    font-style:italic;
+    font-size: 25px;
+    padding-left: 15px;
+}
+#comments{
+    color:rgb(247, 85, 247);
+    font-size: 30px;
+    position: relative;top:60px;left:25px;
+    font-style: cursive;
+}
+#ucomments{
+    position: relative;top:20px;left:15px;
+    height:150px;
+    width:250px;
+    border-style: none;
+    color:rgb(86, 186, 243)   ;
+    font-weight: 400px;
+    font-style:italic;
+    font-size: 25px;
+    border-width:3px;
+    background: linear-gradient(to bottom right,rgb(253, 230, 186), pink );
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(107, 189, 236)    ;
+    padding:10px;
+}
+button{
+    color:rgb(71, 71, 71);
+    position: relative;top:135px;right:125px;
+    height:35px;
+    width:90px;
+    font-size: 20px;
+    font-style: cursive;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 0px 0px 20px rgb(248, 117, 248) ;
+    background: linear-gradient(to bottom right, pink,rgb(107, 189, 236) );
+}
